@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>聖地巡礼マップ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: sans-serif;
+      }
+
+      #map {
+        width: 100%;
+        /* 高さはJSで動的に指定 */
+      }
+
+      #checkBtn {
+        position: fixed;
+        bottom: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        padding: 14px 24px;
+        border-radius: 12px;
+        background: #007bff;
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        z-index: 999;
+      }
+
+      #checkBtn:active {
+        background: #0056b3;
+      }
+
+      #alert {
+        position: fixed;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fffa90;
+        padding: 10px 16px;
+        border-radius: 10px;
+        z-index: 999;
+        display: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <button id="checkBtn" onclick="checkProximity()">🎯 近くの聖地を調べる</button>
+    <div id="alert"></div>
+
+    <script>
+      // スマホ対応：実際の画面高さを使う
+      function adjustMapHeight() {
+        const vh = window.innerHeight;
+        document.getElementById("map").style.height = vh + "px";
+      }
+      window.addEventListener("load", adjustMapHeight);
+      window.addEventListener("resize", adjustMapHeight);
+    </script>
+
+    <script src="script.js"></script>
+    <script src="env.js"></script>
+    <script>
+    const script = document.createElement('script');
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${window.env.GOOGLE_MAPS_API_KEY}&callback=initMap`;
+    script.async = true;
+    script.defer = true;
+    document.head.appendChild(script);
+    </script>
+  </body>
+</html>
