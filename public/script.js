@@ -18,7 +18,7 @@ async function initMap() {
   allLocations.forEach((loc) => {
     service.getDetails(
       {
-        placeId: loc.place_id,
+        placeId: loc.placeId,
         fields: ['name', 'geometry', 'photos']
       },
       (place, status) => {
