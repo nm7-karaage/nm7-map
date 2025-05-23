@@ -3,71 +3,71 @@
     "id": "tokyo-dome",
     "title": "東京ドーム",
     "description": "2011年 NANA MIZUKI LIVE CASTLE 開催",
-    "lat": 35.7056,
-    "lng": 139.7519
+    "lat": 35.70577,
+    "lng": 139.75189
   },
   {
     "id": "saitama-super-arena",
     "title": "さいたまスーパーアリーナ",
     "description": "2022年 NANA MIZUKI LIVE HOME 開催",
-    "lat": 35.894,
-    "lng": 139.633
+    "lat": 35.89417,
+    "lng": 139.63289
   },
   {
     "id": "aspecta",
     "title": "熊本県野外劇場アスペクタ",
     "description": "2005年 NANA MIZUKI LIVE FOREVER 開催",
-    "lat": 33.0022,
-    "lng": 131.0477
+    "lat": 33.00223,
+    "lng": 131.04771
   },
   {
     "id": "theatron",
     "title": "さぬき市野外音楽広場テアトロン",
     "description": "2015年 NANA MIZUKI LIVE ADVENTURE 開催",
-    "lat": 34.3671,
-    "lng": 134.2071
+    "lat": 34.36706,
+    "lng": 134.20713
   },
   {
     "id": "nippon-budokan",
     "title": "日本武道館",
     "description": "2005年 NANA MIZUKI LIVE RAINBOW / 2006年 LIVEDOM 開催",
-    "lat": 35.694,
-    "lng": 139.7518
+    "lat": 35.69408,
+    "lng": 139.75168
   },
   {
     "id": "k-arena-yokohama",
     "title": "Kアリーナ横浜",
     "description": "2024年 NANA MIZUKI LIVE JUNGLE 開催",
-    "lat": 35.454,
-    "lng": 139.631
+    "lat": 35.45422,
+    "lng": 139.63098
   },
   {
     "id": "yokohama-arena",
     "title": "横浜アリーナ",
     "description": "2007年〜 NANA MIZUKI LIVE MUSEUM / GAMES / GATEなど多数開催",
-    "lat": 35.5101,
-    "lng": 139.6306
+    "lat": 35.51011,
+    "lng": 139.63065
   },
   {
     "id": "osaka-johall",
     "title": "大阪城ホール",
     "description": "2010年 NANA MIZUKI LIVE ACADEMY / 2017年 ZIPANGU 開催",
-    "lat": 34.6938,
-    "lng": 135.52
+    "lat": 34.69389,
+    "lng": 135.52011
   },
   {
     "id": "zepp-tokyo",
     "title": "Zepp Tokyo",
     "description": "2003〜2004年 Zeppツアー多数開催",
-    "lat": 35.6266,
-    "lng": 139.7756
+    "lat": 35.62678,
+    "lng": 139.77587
   },
   {
     "id": "nagoya-gaishi",
     "title": "日本ガイシホール",
     "description": "2010年 NANA MIZUKI LIVE ACADEMY 開催",
-    "lat": 35.0975,
-    "lng": 136.9338
+    "lat": 35.09756,
+    "lng": 136.93384
   },
   {
     "id": "zepp-sendai",
@@ -80,8 +80,8 @@
     "id": "zepp-sapporo",
     "title": "Zepp Sapporo",
     "description": "2003年 NANA MIZUKI LIVE SENSATION 開催",
-    "lat": 43.0604,
-    "lng": 141.3536
+    "lat": 43.06037,
+    "lng": 141.35352
   },
   {
     "id": "zepp-osaka",
@@ -94,49 +94,49 @@
     "id": "zepp-fukuoka",
     "title": "Zepp Fukuoka",
     "description": "2004年 NANA MIZUKI LIVE SPARK 開催",
-    "lat": 33.5886,
-    "lng": 130.3958
+    "lat": 33.58862,
+    "lng": 130.39579
   },
   {
     "id": "pacifico-yokohama",
     "title": "パシフィコ横浜 国立大ホール",
     "description": "2005年・2006年 NANA MIZUKI LIVE ROCKET / UNIVERSE 開催",
-    "lat": 35.4578,
-    "lng": 139.6328
+    "lat": 35.45781,
+    "lng": 139.63283
   },
   {
     "id": "sendai-sunplaza",
     "title": "仙台サンプラザホール",
     "description": "2010年 NANA MIZUKI LIVE ACADEMY 開催",
-    "lat": 38.2682,
-    "lng": 140.9014
+    "lat": 38.26823,
+    "lng": 140.90141
   },
   {
     "id": "fukuoka-kokusai",
     "title": "福岡国際会議場 メインホール",
     "description": "2010年 NANA MIZUKI LIVE ACADEMY 開催",
-    "lat": 33.6092,
-    "lng": 130.4187
+    "lat": 33.60921,
+    "lng": 130.41872
   },
   {
     "id": "nagoya-congress",
     "title": "名古屋国際会議場 センチュリーホール",
     "description": "2007年 NANA MIZUKI LIVE FORMULA 開催",
-    "lat": 35.1238,
-    "lng": 136.8993
+    "lat": 35.12384,
+    "lng": 136.89929
   },
   {
     "id": "osaka-iccf",
     "title": "大阪府立国際会議場 メインホール",
     "description": "2007年・2009年 NANA MIZUKI LIVE FORMULA / FEVER 開催",
-    "lat": 34.6928,
-    "lng": 135.4899
+    "lat": 34.69284,
+    "lng": 135.48993
   },
   {
     "id": "aichi-kosei",
     "title": "愛知厚生年金会館",
     "description": "2004年 NANA MIZUKI LIVE RAINBOW 開催",
-    "lat": 35.1681,
-    "lng": 136.9064
+    "lat": 35.16805,
+    "lng": 136.90642
   }
 ]
