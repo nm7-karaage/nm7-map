@@ -1,8 +1,650 @@
 [
   {
-    "id": "tokyo-dome",
-    "title": "東京ドーム",
-    "description": "2011年 NANA MIZUKI LIVE CASTLE 開催",
-    "placeId": "ChIJ89TugkeMGGARDmSeJIiyWFA"
+    "id": 1,
+    "title": "東京ドーム (東京都)",
+    "placeId": "ChIJ89TugkeMGGARDmSeJIiyWFA",
+    "description": "東京ドーム"
+  },
+  {
+    "id": 2,
+    "title": "さいたまスーパーアリーナ (埼玉県)",
+    "placeId": "ChIJv4Yp2QzBGGARnYRUdDcabFA",
+    "description": "さいたまスーパーアリーナ"
+  },
+  {
+    "id": 3,
+    "title": "横浜アリーナ (神奈川県)",
+    "placeId": "ChIJvdEtAtpeGGARF8poryIu1i4",
+    "description": "横浜アリーナ"
+  },
+  {
+    "id": 4,
+    "title": "Kアリーナ横浜 (神奈川県)",
+    "placeId": "ChIJ6Te0zGZdGGARg8sCj6TN9rQ",
+    "description": "Kアリーナ横浜"
+  },
+  {
+    "id": 5,
+    "title": "日本武道館 (東京都)",
+    "placeId": "ChIJE_QrgGuMGGARiHFlyXFcWyE",
+    "description": "日本武道館"
+  },
+  {
+    "id": 6,
+    "title": "大阪城ホール (大阪府)",
+    "placeId": "ChIJpehwXdLgAGARwNLCvUGv5aY",
+    "description": "大阪城ホール"
+  },
+  {
+    "id": 7,
+    "title": "日本ガイシホール (愛知県)",
+    "placeId": "ChIJXSQQI797A2ARTB2rtM6MJ_I",
+    "description": "日本ガイシホール"
+  },
+  {
+    "id": 8,
+    "title": "ベルーナドーム (埼玉県) (旧 西武ドーム)",
+    "placeId": "ChIJ0_t89CbeGGARzkIAFBybm6A",
+    "description": "ベルーナドーム"
+  },
+  {
+    "id": 9,
+    "title": "ZOZOマリンスタジアム (千葉県) (旧 QVCマリンフィールド)",
+    "placeId": "ChIJjZJrSvaBImARqY13RcfS9W0",
+    "description": "ZOZOマリンスタジアム"
+  },
+  {
+    "id": 10,
+    "title": "阪神甲子園球場 (兵庫県)",
+    "placeId": "ChIJ3Yl-OPHtAGARW740Ocpz7vc",
+    "description": "阪神甲子園球場"
+  },
+  {
+    "id": 11,
+    "title": "出雲大社 東神苑特設ステージ (島根県)",
+    "placeId": "ChIJ325M4oBdVzURdAkF7rl8IMk",
+    "description": "東神苑"
+  },
+  {
+    "id": 12,
+    "title": "国立代々木競技場第一体育館 (東京都)",
+    "placeId": "ChIJxeQ_6q-MGGARexvt6BPzdG4",
+    "description": "国立代々木競技場 第一体育館"
+  },
+  {
+    "id": 13,
+    "title": "有明アリーナ (東京都)",
+    "placeId": "ChIJ3UpEwr-JGGARaObjAWNwB9E",
+    "description": "有明アリーナ"
+  },
+  {
+    "id": 14,
+    "title": "ぴあアリーナMM (神奈川県)",
+    "placeId": "ChIJdzDJN1RdGGAR0Myo7CYxuzA",
+    "description": "ぴあアリーナMM"
+  },
+  {
+    "id": 15,
+    "title": "ゼビオアリーナ仙台 (宮城県)",
+    "placeId": "ChIJN3nTesknil8RNG-xwosM7PQ",
+    "description": "ゼビオアリーナ仙台"
+  },
+  {
+    "id": 16,
+    "title": "幕張メッセ イベントホール (千葉県)",
+    "placeId": "ChIJgcEzWQCBImARttgB8gHtr3A",
+    "description": "幕張イベントホール"
+  },
+  {
+    "id": 17,
+    "title": "幕張メッセ 国際展示場 (千葉県)",
+    "placeId": "ChIJA_jHe4WDImARqgaH3hBXCTE",
+    "description": "幕張メッセ 国際展示場 7-8ホール"
+  },
+  {
+    "id": 18,
+    "title": "パシフィコ横浜 国立大ホール (神奈川県)",
+    "placeId": "ChIJVWadsURcGGARZCBmE-Z0E9U",
+    "description": "パシフィコ横浜 国立大ホール"
+  },
+  {
+    "id": 19,
+    "title": "愛媛県県民文化会館 (ひめぎんホール) (愛媛県)",
+    "placeId": "ChIJQ1O1wdvlTzURwCHt4-E122U",
+    "description": "愛媛県県民文化会館"
+  },
+  {
+    "id": 20,
+    "title": "新居浜市市民文化センター (愛媛県)",
+    "placeId": "ChIJL_LtANDOUTUROwhDEQvFCXs",
+    "description": "新居浜市市民文化センター"
+  },
+  {
+    "id": 21,
+    "title": "さぬき市野外音楽広場テアトロン (香川県)",
+    "placeId": "ChIJq6hTejSOUzURAV112MYoR7s",
+    "description": "さぬき市野外音楽広場テアトロン"
+  },
+  {
+    "id": 22,
+    "title": "熊本県野外劇場アスペクタ (熊本県)",
+    "placeId": "ChIJr_C483zcQDURlGO-UTvAA2s",
+    "description": "熊本県野外劇場アスペクタ"
+  },
+  {
+    "id": 23,
+    "title": "富士急ハイランド コニファーフォレスト (山梨県)",
+    "placeId": "ChIJl7I4rVthGWARF9-RmAF5E3Y",
+    "description": "富士急ハイランド コニファーフォレスト"
+  },
+  {
+    "id": 24,
+    "title": "Zepp DiverCity (TOKYO) (東京都)",
+    "placeId": "ChIJ9asxJPiJGGARYejRf2YfJHg",
+    "description": "Zepp DiverCity (TOKYO)"
+  },
+  {
+    "id": 25,
+    "title": "Zepp Sapporo (北海道)",
+    "placeId": "ChIJbxl_L4gpC18RO1jfs1G-CFc",
+    "description": "Zepp Sapporo"
+  },
+  {
+    "id": 26,
+    "title": "Zepp Nagoya (愛知県)",
+    "placeId": "ChIJU1A3EyB3A2ARPX3Hw5ffXuE",
+    "description": "Zepp Nagoya"
+  },
+  {
+    "id": 27,
+    "title": "Zepp Namba (OSAKA) (大阪府)",
+    "placeId": "ChIJjdxt4WXnAGARGi0rVdHc8wg",
+    "description": "Zepp Namba"
+  },
+  {
+    "id": 28,
+    "title": "Zepp Osaka Bayside (大阪府)",
+    "placeId": "ChIJy9lwVuzoAGAR02hhBklsZQA",
+    "description": "Zepp Osaka Bayside"
+  },
+  {
+    "id": 29,
+    "title": "Zepp Fukuoka (福岡県)",
+    "placeId": "ChIJGe-uxUySQTURkgNBPflIuNc",
+    "description": "Zepp Fukuoka"
+  },
+  {
+    "id": 30,
+    "title": "Zepp Tokyo (東京都) (閉館)",
+    "placeId": "ChIJ9asxJPiJGGARYejRf2YfJHg",
+    "description": "Zepp DiverCity (TOKYO)"
+  },
+  {
+    "id": 31,
+    "title": "Zepp Sendai (宮城県) (閉館)",
+    "placeId": "ChIJHWSlhCYoil8Ry6UhPA1DJVs",
+    "description": "space Zero スペースゼロ"
+  },
+  {
+    "id": 32,
+    "title": "横浜BLITZ (神奈川県) (閉館)",
+    "placeId": "ChIJM979l-JdGGARnCK6GX8kBa8",
+    "description": "横浜BLITZ"
+  },
+  {
+    "id": 33,
+    "title": "NHKホール (東京都)",
+    "placeId": "ChIJw8YYEq6MGGARdzAHIuloZt8",
+    "description": "〒150-0041 東京都渋谷区神南２丁目２−１ ＮＨＫホール"
+  },
+  {
+    "id": 34,
+    "title": "渋谷公会堂 (東京都) (LINE CUBE SHIBUYA)",
+    "placeId": "ChIJT4CoA7iMGGAR_sw0T7s1wJk",
+    "description": "LINE CUBE SHIBUYA（渋谷公会堂）"
+  },
+  {
+    "id": 35,
+    "title": "中野サンプラザ (東京都) (閉館)",
+    "placeId": "ChIJzzmd3JDyGGAR7alyVKP8nN4",
+    "description": "中野サンプラザ"
+  },
+  {
+    "id": 36,
+    "title": "東京国際フォーラム ホールA (東京都)",
+    "placeId": "ChIJLxx9a7yLGGARGMCsx3xnVa8",
+    "description": "東京国際フォーラム ホールA"
+  },
+  {
+    "id": 37,
+    "title": "神戸ワールド記念ホール (兵庫県)",
+    "placeId": "ChIJtWvZihmOAGARuB-yJgv-EA4",
+    "description": "ワールド記念ホール"
+  },
+  {
+    "id": 38,
+    "title": "広島サンプラザホール (広島県)",
+    "placeId": "ChIJvwWyyUqjWjURj-ysjT7KhLA",
+    "description": "〒733-0833 広島県広島市西区商工センター３丁目１−１ 広島サンプラザ"
+  },
+  {
+    "id": 39,
+    "title": "福岡サンパレス (福岡県)",
+    "placeId": "ChIJS6Mnt--RQTURlHJ3KWdU5rU",
+    "description": "福岡サンパレス ホテル＆ホール"
+  },
+  {
+    "id": 40,
+    "title": "北九州ソレイユホール (福岡県) (旧 九州厚生年金会館)",
+    "placeId": "ChIJqWxjRqi4QzURzYMJzUipv8w",
+    "description": "北九州ソレイユホール"
+  },
+  {
+    "id": 41,
+    "title": "iichikoグランシアタ (大分県)",
+    "placeId": "ChIJD0LGVH2fRjURcoSPvop1PLA",
+    "description": "iichiko総合文化センター iichikoグランシアタ"
+  },
+  {
+    "id": 42,
+    "title": "宮崎市民文化ホール (宮崎県)",
+    "placeId": "ChIJ-TKrLa23ODURSqhUQu5pHG0",
+    "description": "宮崎市民文化ホール"
+  },
+  {
+    "id": 43,
+    "title": "鹿児島市民文化ホール (鹿児島県)",
+    "placeId": "ChIJD9S2t8dgPjURQH7VHmZZEHY",
+    "description": "川商ホール(鹿児島市民文化ホール)"
+  },
+  {
+    "id": 44,
+    "title": "沖縄コンベンションセンター劇場 (沖縄県)",
+    "placeId": "ChIJOSKWBKVs5TQR18l2nqd_ooI",
+    "description": "沖縄コンベンションセンター 劇場棟 (会議場C)"
+  },
+  {
+    "id": 45,
+    "title": "長野ホクト文化ホール (長野県)",
+    "placeId": "ChIJK-6lgZCGHWAR7Qh4kGyCJbk",
+    "description": "ホクト文化ホール(長野県県民文化会館)"
+  },
+  {
+    "id": 46,
+    "title": "新潟県民会館 (新潟県)",
+    "placeId": "ChIJBarmgMDJ9F8RSdYNImCORno",
+    "description": "新潟県民会館"
+  },
+  {
+    "id": 47,
+    "title": "石川県立音楽堂コンサートホール (石川県)",
+    "placeId": "ChIJ13SQt2kz-F8ROsElHdO6vA8",
+    "description": "石川県立音楽堂"
+  },
+  {
+    "id": 48,
+    "title": "本多の森ホール (石川県) (旧 石川厚生年金会館)",
+    "placeId": "ChIJByDxgogz-F8RxBKy54J5fU8",
+    "description": "本多の森 北電ホール"
+  },
+  {
+    "id": 49,
+    "title": "富山オーバード・ホール (富山県)",
+    "placeId": "ChIJ0Qb4Cp6Q918RiJLdyqaG8Vo",
+    "description": "オーバード・ホール"
+  },
+  {
+    "id": 50,
+    "title": "静岡市民文化会館 (静岡県)",
+    "placeId": "ChIJi4yObRtKGmARbHVBPQ-HWHI",
+    "description": "静岡市民文化会館"
+  },
+  {
+    "id": 51,
+    "title": "アクトシティ浜松 (静岡県)",
+    "placeId": "ChIJr1K60XbeGmARbBiwJdkiFbs",
+    "description": "アクトシティ浜松"
+  },
+  {
+    "id": 52,
+    "title": "三重県文化会館 (三重県)",
+    "placeId": "ChIJ4YRySl8LBGARGpfTacTaJmk",
+    "description": "三重県文化会館"
+  },
+  {
+    "id": 53,
+    "title": "なら100年会館 (奈良県)",
+    "placeId": "ChIJi0CpvTE6AWARLNktIchDaT0",
+    "description": "なら100年会館"
+  },
+  {
+    "id": 54,
+    "title": "滋賀県立芸術劇場 びわ湖ホール (滋賀県)",
+    "placeId": "ChIJTY-Sb-UMAWARBc88d9SMyNI",
+    "description": "滋賀県立芸術劇場 びわ湖ホール"
+  },
+  {
+    "id": 55,
+    "title": "和歌山県民文化会館 (和歌山県)",
+    "placeId": "ChIJ5VGHcL-yAGARbOnv5X2qWlg",
+    "description": "和歌山県民文化会館"
+  },
+  {
+    "id": 56,
+    "title": "とりぎん文化会館 梨花ホール (鳥取県)",
+    "placeId": "ChIJTWR4upGPVTURjTq7fvdvL0o",
+    "description": "梨花ホール"
+  },
+  {
+    "id": 57,
+    "title": "島根県民会館 (島根県)",
+    "placeId": "ChIJQUk8cgQFVzURK2v-QALVXMQ",
+    "description": "島根県民会館"
+  },
+  {
+    "id": 58,
+    "title": "岡山市民会館 (岡山県) (閉館)",
+    "placeId": "ChIJT2y6KywGVDUR93yRm4F0Ulc",
+    "description": "岡山市立市民文化ホール"
+  },
+  {
+    "id": 59,
+    "title": "倉敷市民会館 (岡山県)",
+    "placeId": "ChIJh4wZXDlWUTUR2VkwRDnSC34",
+    "description": "倉敷市民会館"
+  },
+  {
+    "id": 60,
+    "title": "ふくやま芸術文化ホール リーデンローズ (広島県)",
+    "placeId": "ChIJM3306xoRUTUReCpEIMC8QZo",
+    "description": "〒720-0802 広島県福山市松浜町２丁目１−１０ ふくやま芸術文化ホールリーデンローズ"
+  },
+  {
+    "id": 61,
+    "title": "周南市文化会館 (山口県)",
+    "placeId": "ChIJodRpcRHnRDURnP1M0xsIBCA",
+    "description": "周南市文化会館"
+  },
+  {
+    "id": 62,
+    "title": "サンポートホール高松 (香川県)",
+    "placeId": "ChIJ8XXoRYjrUzURdz2Egk6Wx-M",
+    "description": "サンポートホール高松（高松市文化芸術ホール）"
+  },
+  {
+    "id": 63,
+    "title": "徳島市立文化センター (徳島県) (閉館)",
+    "placeId": "ChIJMVEvTGFtUzUR9pkE5LOiBZc",
+    "description": "徳島市 文化センター"
+  },
+  {
+    "id": 64,
+    "title": "あわぎんホール (徳島県郷土文化会館) (徳島県)",
+    "placeId": "ChIJ3aqXOZ9yUzURNqfJjfKwE-c",
+    "description": "あわぎんホール（徳島県郷土文化会館）"
+  },
+  {
+    "id": 65,
+    "title": "高知県立県民文化ホール (高知県)",
+    "placeId": "ChIJnz3MlzwZTjUR9nwPJ3bh0M4",
+    "description": "高知県立県民文化ホール"
+  },
+  {
+    "id": 66,
+    "title": "佐賀市文化会館 (佐賀県)",
+    "placeId": "ChIJ35MMcxzKQTURmSMiYRz0Xjs",
+    "description": "佐賀市文化会館"
+  },
+  {
+    "id": 67,
+    "title": "長崎ブリックホール (長崎県)",
+    "placeId": "ChIJ4Yq36JUayUwRdKDs1SOk-ug",
+    "description": "ベネックス長崎ブリックホール"
+  },
+  {
+    "id": 68,
+    "title": "ホルトホール大分 (大分県)",
+    "placeId": "ChIJa40tNmGfRjURR65IeHlcYC8",
+    "description": "J:COM ホルトホール大分"
+  },
+  {
+    "id": 69,
+    "title": "仙台サンプラザホール (宮城県)",
+    "placeId": "ChIJ1d12fkwpil8RY0Und0i4xKQ",
+    "description": "仙台サンプラザホール"
+  },
+  {
+    "id": 70,
+    "title": "岩手県民会館 (岩手県)",
+    "placeId": "ChIJV7pNfiR2hV8Rxu-3R32LuQ4",
+    "description": "トーサイクラシックホール岩手(岩手県民会館)"
+  },
+  {
+    "id": 71,
+    "title": "秋田県民会館 (秋田県) (閉館)",
+    "placeId": "ChIJ5Wu9PZXCj18R7oYr1b6_alk",
+    "description": "秋田県民会館"
+  },
+  {
+    "id": 72,
+    "title": "リンクステーションホール青森 (青森県) (青森市文化会館)",
+    "placeId": "ChIJq6qq_fuem18Rkt13B2v8fWA",
+    "description": "リンクステーションホール青森"
+  },
+  {
+    "id": 73,
+    "title": "山形県県民会館 (やまぎん県民ホール) (山形県)",
+    "placeId": "ChIJFwBJoL-3i18R2W0AMDDJ9-A",
+    "description": "やまぎん県民ホール （山形県総合文化芸術館）"
+  },
+  {
+    "id": 74,
+    "title": "けんしん郡山文化センター (福島県) (郡山市民文化センター)",
+    "placeId": "ChIJ4dA3v5xsIGARChH9b-KYlls",
+    "description": "けんしん郡山文化センター"
+  },
+  {
+    "id": 75,
+    "title": "茨城県立県民文化センター (茨城県)",
+    "placeId": "ChIJyfIQ2PgkImAR7cEpxA0bd-U",
+    "description": "ザ・ヒロサワ・シティ会館(茨城県立県民文化センター)"
+  },
+  {
+    "id": 76,
+    "title": "栃木県総合文化センター (栃木県)",
+    "placeId": "ChIJt2UcXrpnH2ARe1oKeZTzDLg",
+    "description": "栃木県総合文化センター"
+  },
+  {
+    "id": 77,
+    "title": "ベイシア文化ホール (群馬県民会館) (群馬県)",
+    "placeId": "ChIJT4YhjQXzHmARXuYJ0RGJR_Q",
+    "description": "群馬県民会館（ベイシア文化ホール）"
+  },
+  {
+    "id": 78,
+    "title": "ウェスタ川越 (埼玉県)",
+    "placeId": "ChIJE5E-Q1HaGGARcD2U1h98VkM",
+    "description": "ウェスタ川越"
+  },
+  {
+    "id": 79,
+    "title": "千葉県文化会館 (千葉県)",
+    "placeId": "ChIJrWbGSTGbImARBc_2J-jagrc",
+    "description": "千葉県文化会館"
+  },
+  {
+    "id": 80,
+    "title": "神奈川県民ホール (神奈川県)",
+    "placeId": "ChIJo-AUw_xcGGARdAkZvViawlk",
+    "description": "神奈川県民ホール"
+  },
+  {
+    "id": 81,
+    "title": "よこすか芸術劇場 (神奈川県)",
+    "placeId": "ChIJsUeVMndAGGARQAt_DojxBvM",
+    "description": "横須賀芸術劇場"
+  },
+  {
+    "id": 82,
+    "title": "相模女子大学グリーンホール (神奈川県)",
+    "placeId": "ChIJybJkf8f-GGARFHDHGYJWe2g",
+    "description": "相模女子大学グリーンホール（相模原市文化会館）"
+  },
+  {
+    "id": 83,
+    "title": "オリンパスホール八王子 (東京都)",
+    "placeId": "ChIJ95jOuNsdGWAR20v-lu32fd8",
+    "description": "J:COMホール八王子"
+  },
+  {
+    "id": 84,
+    "title": "府中の森芸術劇場 (東京都)",
+    "placeId": "ChIJxYWuixvlGGARVBEhF6B2Y2M",
+    "description": "府中の森芸術劇場"
+  },
+  {
+    "id": 85,
+    "title": "まつもと市民芸術館 (長野県)",
+    "placeId": "ChIJVYx_w-wOHWARPWuXUy2ivbs",
+    "description": "まつもと市民芸術館"
+  },
+  {
+    "id": 86,
+    "title": "長岡市立劇場 (新潟県)",
+    "placeId": "ChIJszMKf-Wo9V8RYwayiMni95o",
+    "description": "長岡市立劇場"
+  },
+  {
+    "id": 87,
+    "title": "福井フェニックスプラザ (福井県)",
+    "placeId": "ChIJPcjZGv---F8RT60Gi1b6qUE",
+    "description": "〒910-0018 福井県福井市田原１丁目１３−６ フェニックス・プラザ"
+  },
+  {
+    "id": 88,
+    "title": "岐阜市民会館 (岐阜県) (閉館)",
+    "placeId": "ChIJP5yUEVqpA2ARC0dM1eovY-c",
+    "description": "ぎふしんフォーラム(岐阜市民会館)"
+  },
+  {
+    "id": 89,
+    "title": "長良川国際会議場 (岐阜県)",
+    "placeId": "ChIJ4_Luvd2rA2AR2F_p3ZGHfbs",
+    "description": "長良川国際会議場"
+  },
+  {
+    "id": 90,
+    "title": "四日市市文化会館 (三重県)",
+    "placeId": "ChIJb4T6zIqOA2ARZD4NY1u2DHE",
+    "description": "四日市市文化会館"
+  },
+  {
+    "id": 91,
+    "title": "神戸国際会館こくさいホール (兵庫県)",
+    "placeId": "ChIJUeGnhfqOAGARqRvEpAJs3Mk",
+    "description": "神戸国際会館こくさいホール"
+  },
+  {
+    "id": 92,
+    "title": "姫路市文化コンベンションセンター アクリエひめじ (兵庫県)",
+    "placeId": "ChIJLTyohevfVDURBQmaI3E28ls",
+    "description": "アクリエひめじ（姫路市文化コンベンションセンター）"
+  },
+  {
+    "id": 93,
+    "title": "レクザムホール (香川県県民ホール) (香川県)",
+    "placeId": "ChIJz0Oqq4DrUzURp_rRUwfjqyE",
+    "description": "レクザムホール"
+  },
+  {
+    "id": 94,
+    "title": "松山市民会館 (愛媛県)",
+    "placeId": "ChIJAQAACY7lTzURgUmFvJWhqfY",
+    "description": "松山市民会館"
+  },
+  {
+    "id": 95,
+    "title": "北上市文化交流センター さくらホール (岩手県)",
+    "placeId": "ChIJd_y0Tp5Ej18Rdq1QAOBfye0",
+    "description": "北上市文化交流センター さくらホール feat.ツガワ"
+  },
+  {
+    "id": 96,
+    "title": "ギルドホール (イギリス・ポーツマス) ※NANA MIZUKI LIVE GRACE -OPUS II- in PORTSMOUTH",
+    "placeId": "ChIJ1yuvkZ1ddEgRJkl6uXuG1KA",
+    "description": "Portsmouth Guildhall"
+  },
+  {
+    "id": 97,
+    "title": "オーチャードホール (東京都)",
+    "placeId": "ChIJf73XxauMGGARgxfTZia4UaI",
+    "description": "オーチャードホール"
+  },
+  {
+    "id": 98,
+    "title": "東京ビッグサイト (東京都) - イベントステージなど",
+    "placeId": "ChIJex6dYtyJGGARAVoEdppQ0aQ",
+    "description": "東京ビッグサイト"
+  },
+  {
+    "id": 99,
+    "title": "両国国技館 (東京都) - ファンクラブイベントなど",
+    "placeId": "ChIJGeu4VDWJGGARdPoda8d8I3A",
+    "description": "両国国技館"
+  },
+  {
+    "id": 100,
+    "title": "シンガポール ※NANA MIZUKI LIVE FLIGHT in Singapore",
+    "placeId": "該当なし",
+    "description": "該当なし"
+  },
+  {
+    "id": 101,
+    "title": "台湾 ※NANA MIZUKI LIVE FLIGHT in Taiwan / NANA MIZUKI LIVE GALAXY in Taipei",
+    "placeId": "ChIJ____I6CpQjQRhVgS7YnMKV0",
+    "description": "NANA MIZUKI FLIGHT 2014+ [AIR16 TAIWAN]"
+  },
+  {
+    "id": 102,
+    "title": "上海 ※NANA MIZUKI LIVE EXPRESS in Shanghai / NANA MIZUKI LIVE ZIPANGU in Shanghai",
+    "placeId": "ChIJLUJoI3dYsjURuatA8Y-MGMc",
+    "description": "Live Music at PUB79"
+  },
+  {
+    "id": 103,
+    "title": "香港 ※NANA MIZUKI LIVE ISLAND in Hong Kong",
+    "placeId": "ChIJsQIjhnwABDQRCTVTm-GVzn8",
+    "description": "蘭桂坊"
+  },
+  {
+    "id": 104,
+    "title": "国立台湾大学総合体育館 (台湾・台北市)",
+    "placeId": "ChIJHYeewoupQjQRo1LvtfKwHYY",
+    "description": "国立台湾大学総合体育館"
+  },
+  {
+    "id": 105,
+    "title": "Legacy Taipei (台湾・台北市)",
+    "placeId": "ChIJ_QYiGnupQjQRf4pPuC7qhJc",
+    "description": "Legacy Taipei"
+  },
+  {
+    "id": 106,
+    "title": "Resorts World Theatre (シンガポール)",
+    "placeId": "ChIJTQ7mdv4b2jERnSkXmc8UNMQ",
+    "description": "リゾーツ ワールド シアター"
+  },
+  {
+    "id": 107,
+    "title": "喜瑪拉雅藝術中心大観舞台 (中国・上海市)",
+    "placeId": "ChIJ_6MJ0mp3sjUR6Gt55o2cDEU",
+    "description": "上海喜瑪拉雅美術館"
+  },
+  {
+    "id": 108,
+    "title": "Music Zone @ E-Max (香港)",
+    "placeId": "ChIJDVinWAABBDQRpDJDS2WcoIA",
+    "description": "Music Zone @ E-Max"
   }
 ]
