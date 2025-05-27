@@ -1,6 +1,7 @@
 PlaceIdや緯度経度を取得して、GoogleMap上に表示するSample
 
 areas.jsonはFirebase Hostigin上に公開されています。
+
 https://nm7-map.web.app/areas.json
 
 ## License
