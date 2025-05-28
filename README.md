@@ -1,8 +1,37 @@
 PlaceIdや緯度経度を取得して、GoogleMap上に表示するSample
-
 areas.jsonはFirebase Hostigin上に公開されています。
-
 https://nm7-map.web.app/areas.json
+
+## 緯度経度情報を取得するためのスクリプトの図示
+
+graph LR
+    %% Subgraph for System Admin/Developer Actions
+    subgraph "システム管理者/開発者 操作"
+        direction TB
+        A["ユーザー/開発者"]
+    end
+
+    %% Subgraph for Data Management and Processing (GAS Backend)
+    subgraph "データ管理・処理 (GASバックエンド)"
+        direction LR
+        B["Googleスプレッドシート<br>(データ入力・管理)"]
+        C["Google Apps Script (GAS)<br>(データ処理・API連携・JSON生成)"]
+        D["Google Maps Platform API<br>(Places API)"]
+        F["Google Drive<br>(/nm7/map/)"]
+        G["areas.json<br>(最新版)"]
+        E["areas_timestamp.json<br>(履歴)"]
+    end
+
+    %% Data Flow
+    A -- "地名リスト入力<br>GAS実行指示" --> B;
+    B -- "データ読み込み/<br>書き込み" --> C;
+    C -- "地名クエリ" --> D;
+    D -- "Place ID, 名称,<br>緯度/経度" --> C;
+    C -- "Place ID, 名称,<br>緯度/経度, URL" --> B;
+    C -- "生成 (最新版)" --> G;
+    G -- "保存" --> F;
+    C -- "生成 (履歴)" --> E;
+    E -- "保存" --> F;
 
 ## License
 ```
