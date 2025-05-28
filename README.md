@@ -4,6 +4,7 @@ https://nm7-map.web.app/areas.json
 
 ## 緯度経度情報を取得するためのスクリプトの図示
 
+```mermaid
 graph LR
     %% Subgraph for System Admin/Developer Actions
     subgraph "システム管理者/開発者 操作"
@@ -32,6 +33,7 @@ graph LR
     G -- "保存" --> F;
     C -- "生成 (履歴)" --> E;
     E -- "保存" --> F;
+```
 
 ## License
 ```
