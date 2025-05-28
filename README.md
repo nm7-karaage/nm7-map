@@ -1,5 +1,6 @@
 PlaceIdや緯度経度を取得して、GoogleMap上に表示するSample
 areas.jsonはFirebase Hostigin上に公開されています。
+水樹奈々さんの聖地巡礼マップを使いたい人は、使ってみてください！（不定期更新）
 https://nm7-map.web.app/areas.json
 
 ## 緯度経度情報を取得するためのスクリプトの図示
@@ -33,6 +34,38 @@ graph LR
     G -- "保存" --> F;
     C -- "生成 (履歴)" --> E;
     E -- "保存" --> F;
+```
+
+## フロントの仕組み
+
+```mermaid
+graph LR
+    %% Subgraph for Web Content Delivery
+    subgraph "ウェブコンテンツ配信"
+        direction TB
+        H["手動アップロード<br>(areas.json等)"]
+        I["Firebase Hosting"]
+    end
+    
+    %% Subgraph for Web Application (Frontend)
+    subgraph "ウェブアプリ (エンドユーザー操作)"
+        direction LR
+        J["エンドユーザーのブラウザ"]
+        K["Google Maps<br>JavaScript API"]
+        L["ブラウザ<br>Geolocation API"]
+        M["Google Maps Platform API<br>(Places API - 写真取得用)"]
+    end
+
+    %% Data and Interaction Flow
+    H -- "デプロイ" --> I;
+    J -- "nm7-map.web.app<br>アクセス" --> I;
+    I -- "HTML, CSS, JS,<br>areas.json" --> J;
+    J -- "マップ初期化<br>マーカープロット" --> K;
+    J -- "写真情報リクエスト<br>(Place ID)" --> M;
+    M -- "写真データ" --> J;
+    J -- "現在地取得<br>リクエスト" --> L;
+    L -- "緯度/経度" --> J;
+    J -- "近傍検索処理" --> J; %% 自己ループで内部処理を示す
 ```
 
 ## License
