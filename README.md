@@ -1,6 +1,6 @@
 PlaceIdや緯度経度を取得して、GoogleMap上に表示するSample  
 areas.jsonはFirebase Hostigin上に公開されています。  
-水樹奈々さんの聖地巡礼マップを使いたい人は、使ってみてください！（不定期更新） 
+水樹奈々さんの聖地巡礼マップを使いたい人は、使ってみてください！（不定期更新）  
 https://nm7-map.web.app/areas.json  
 
 ## 緯度経度情報を取得するためのスクリプトの図示
